@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/dlog_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/shouji" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="    手机号登陆"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#f2f2f2"/>
+    <TextView
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/diog_qq"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:src="@drawable/qq"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Q Q 登陆" />
+    </LinearLayout>
+    <TextView
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#f2f2f2"/>
+    <TextView
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/dlog_wb"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="1">
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/weibo"
+            android:layout_width="30dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="微博登陆"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <TextView
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f2f2f2"/>
+    <TextView
+        android:id="@+id/dlog_back"
+        android:text="取消"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>

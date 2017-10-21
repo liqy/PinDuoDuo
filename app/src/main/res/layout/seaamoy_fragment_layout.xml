@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include
+        android:id="@+id/seaamoy_fragment_toolbar"
+        layout="@layout/public_tool_bar"
+        />
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--&gt;-->
+        <!--<ImageView-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/image"-->
+            <!--android:src="@mipmap/ic_launcher"/>-->
+
+
+        <!--<ImageView-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/image3"-->
+            <!--android:src="@mipmap/ic_launcher"/>-->
+
+    <!--</LinearLayout>-->
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="8dp"-->
+        <!--android:background="#F2F2F2"/>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/textview"-->
+            <!--android:text="全球热门"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textSize="20sp"/>-->
+<!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:background="@mipmap/vcfbv"/>-->
+
+    <!--</LinearLayout>-->
+    <ImageView
+        android:id="@+id/public_toolbar_xian"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_newfengexian"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/seaamoy_fragment_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Pdd.iml" filepath="$PROJECT_DIR$/Pdd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PinDuoDuo.iml" filepath="$PROJECT_DIR$/PinDuoDuo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PinDuoDuo1.iml" filepath="$PROJECT_DIR$/PinDuoDuo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PinDuoDuos.iml" filepath="$PROJECT_DIR$/PinDuoDuos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PinDuoDuos.iml" filepath="$PROJECT_DIR$/PinDuoDuos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transparent/transparent.iml" filepath="$PROJECT_DIR$/transparent/transparent.iml" />
+    </modules>
+  </component>
+</project>

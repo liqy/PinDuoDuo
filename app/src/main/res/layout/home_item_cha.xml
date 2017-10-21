@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_margin="3dp">
+    <ImageView
+        android:id="@+id/home_cha_imgss"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:id="@+id/home_cha_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxEms="7"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/home_cha_imgss"/>
+
+    <TextView
+        android:id="@+id/home_cha_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="￥22.8"
+        android:textColor="@color/colorRed"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/home_cha_text"/>
+</RelativeLayout>

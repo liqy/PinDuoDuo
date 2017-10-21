@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.youth.banner.Banner
+        android:id="@+id/deatailactivity_img"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"/>
+    <TextView
+        android:id="@+id/deatailactivity_recycler_pricce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorRed"
+        android:text="￥29.9"
+        android:textSize="22sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/deatailactivity_img"
+        />
+    <TextView
+        android:id="@+id/deatail_fragment_recycler_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   【回顾老顾客限时29.9元，活动结束立马涨价59.9元】新韩版女装潮韩版宽松短"
+        android:maxLines="2"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@id/deatailactivity_recycler_pricce"/>
+    <TextView
+        android:id="@+id/deatail_fragment_recycler_contentdeatail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="【回顾老顾客限时29.9元，活动结束立马涨价59.9元】新韩版女装潮韩版宽松短【回顾老顾客限时29.9元，活动结束立马涨价59.9元】新韩版女装潮韩版宽松短【回顾老顾客限时29.9元，活动结束立马涨价59.9元】新韩版女装潮韩版宽松短【回顾老顾客限时29.9元，活动结束立马涨价59.9元】新韩版女装潮韩版宽松短"
+        android:textColor="@color/color_newitemheihui"
+        android:layout_below="@id/deatail_fragment_recycler_content"/>
+</RelativeLayout>

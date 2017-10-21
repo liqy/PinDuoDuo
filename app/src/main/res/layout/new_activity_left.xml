@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <RelativeLayout
+        android:id="@+id/new_activity_left_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#FFFBFF">
+        <ImageView
+            android:layout_margin="12dp"
+            android:id="@+id/new_activity_left"
+            android:src="@drawable/nav_arrow"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:id="@+id/public_toolbar_tv"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/colorBlack"
+            android:text="邻里团-排行"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_margin="12dp"
+            android:id="@+id/new_activity_right"
+            android:src="@drawable/nav_share"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/public_toolbar_xian"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_newfengexian"
+        android:layout_below="@id/new_activity_left_toolbar"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/new_left_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/public_toolbar_xian"></android.support.v7.widget.RecyclerView>
+</RelativeLayout>

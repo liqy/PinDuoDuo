@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="5dp"
+    android:background="#f8f8f8"
+    android:layout_height="300dp">
+    <ImageView
+        android:id="@+id/padt_image"
+        android:scaleType="fitXY"
+        android:layout_width="300dp"
+        android:layout_height="200dp" />
+    <TextView
+        android:id="@+id/padt_tv1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:textColor="#f00"
+        android:id="@+id/padt_tv2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"/>
+</LinearLayout>

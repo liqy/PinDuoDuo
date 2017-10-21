@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="75dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/home_one"
+        android:layout_width="75dp"
+        android:layout_height="72dp"
+        />
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/home_one_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="#0d0b0c"
+        android:text="ceshiy"/>
+
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/home_two"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@mipmap/ic_launcher"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/home_two_text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="ceshiyongdzi "/>-->
+</LinearLayout>

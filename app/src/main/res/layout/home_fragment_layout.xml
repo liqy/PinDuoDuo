@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@android:color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+          <include layout="@layout/home_toolbar"/>
+    <TextView
+        android:id="@+id/duo"
+        android:text="拼多多"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <LinearLayout
+        android:layout_below="@id/duo"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+      <android.support.design.widget.TabLayout
+        android:id="@+id/qs_tab"
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+          app:tabMode="scrollable"
+          app:tabTextColor="#0a0909"
+          app:tabSelectedTextColor="#e02e24"
+          app:tabIndicatorColor="#e02e24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        </android.support.design.widget.TabLayout>
+        <android.support.v4.view.ViewPager
+        android:id="@+id/qs_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+</RelativeLayout>

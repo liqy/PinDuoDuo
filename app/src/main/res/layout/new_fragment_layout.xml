@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/public_toolbar"
+        layout="@layout/public_tool_bar"></include>
+    <ImageView
+        android:id="@+id/public_toolbar_xian"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_newfengexian"
+        android:layout_below="@id/public_toolbar"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/new_content_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/public_toolbar_xian"></android.support.v7.widget.RecyclerView>
+</RelativeLayout>

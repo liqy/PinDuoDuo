@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#FFFBFF">
+
+    <TextView
+        android:id="@+id/public_toolbar_tv"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/colorBlack"
+        android:text="海淘"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:layout_margin="12dp"
+        android:id="@+id/public_toolbar_image"
+        android:src="@drawable/nav_share"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

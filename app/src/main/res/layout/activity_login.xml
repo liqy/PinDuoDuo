@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/login_back"
+        android:text="关闭"
+        android:textSize="12sp"
+        android:textColor="#FF023EFF"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="25dp" />
+    <TextView
+        android:text="选择登陆方式"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_below="@+id/login_back"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+    <Button
+        android:text="微信登陆"
+        android:textColor="#FFFFFFFF"
+        android:background="#1aad19"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:id="@+id/login_weixindl" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="已经在手机QQ/微博/或浏览器中购买过？"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/login_weixindl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+    <TextView
+        android:id="@+id/login_otherdl"
+        android:textSize="12sp"
+        android:text="请使用其他方式登陆"
+        android:textColor="#FF023EFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+    <TextView
+        android:id="@+id/login_look"
+        android:text="查看拼多多服务协议"
+        android:textSize="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp" />
+</RelativeLayout>
